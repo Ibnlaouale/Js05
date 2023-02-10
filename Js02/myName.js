@@ -1,5 +1,5 @@
-let nom="Daouda";
+let myName = "Daouda";
 
-let mystr = "My name is "+nom+" and I am well!";
+let mystr = "My name is"+" "+myName+" "+"and I am well!";
 
-console.log (mystr);
+console.log(mystr);
