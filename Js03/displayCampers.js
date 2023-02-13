@@ -5,9 +5,9 @@ const codeloccol = {
   friends: '[Codeloccol Campers]',
 };
 
-function affiche (){
+function afficheCampers(){
   
-  return codeloccol.friends;
+    console.log(codeloccol.friends);
 }
 
-console.log (affiche());
+afficheCampers(codeloccol);

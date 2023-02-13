@@ -11,8 +11,10 @@ const myStorage = {
 };
 
 function gloveBoxContents(){
-  return gloveBoxContents = myStorage.car.inside.glovebox;
+  
+  let  gloveBoxContents = myStorage.car.inside.glovebox;
+   console.log (gloveBoxContents);
 ;
 }
 
-console.log (gloveBoxContents());
+    gloveBoxContents();
