@@ -10,4 +10,4 @@ function afficheCampers(){
     console.log(codeloccol.friends);
 }
 
-afficheCampers();
+    afficheCampers();
