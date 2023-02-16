@@ -1,7 +1,6 @@
 function multiplay(a,b) {
-    let p = a*b;
-    console.log(p);
+    return a*b;
 }
-multiplay(25,2);
+console.log(multiplay(25,2));
     
 module.exports = multiplay; 
