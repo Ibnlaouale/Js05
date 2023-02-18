@@ -5,7 +5,7 @@ function countAcaracter(){
     let n=0;
     let tab = sentence.split('');
     
-    for(let i=1; i<tab.length; i++){
+    for(let i=0; i<tab.length; i++){
         if(tab[i]=='a'){
             n++;
         }
@@ -15,4 +15,3 @@ function countAcaracter(){
 }
     countAcaracter();
 module.exports = countAcaracter;
-

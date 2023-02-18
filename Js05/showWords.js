@@ -1,11 +1,11 @@
 const mots = [ "Niger", "Niamey", "Sadore", "Codeloccol" ];
 
-function showWords(mots){
+function showWords(){
 
         for(let i = 0; i<=mots.length; i++)
         console.log(mots[i]);
 }
 
-    showWords(mots);
+    showWords();
 
 module.expots = showWords;
